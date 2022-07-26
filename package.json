@@ -1,0 +1,29 @@
+{
+  "name": "jquery-asmselect",
+  "version": "1.0.6",
+  "description": "A jquery plugin providing progressive enhancement to <select multiple> form elements.",
+  "main": "jquery.asmselect.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefloridabar/jquery-asmSelect.git"
+  },
+  "keywords": [
+    "jQuery",
+    "select"
+  ],
+  "author": "Ryan Cramer (http://www.ryancramer.com) ",
+  "contributors": [
+    "Larry Reinhard"
+  ],
+  "license": "(MIT OR GPL-3.0-or-later)",
+  "bugs": {
+    "url": "https://github.com/thefloridabar/jquery-asmSelect/issues"
+  },
+  "homepage": "https://github.com/thefloridabar/jquery-asmSelect#readme"
+}
