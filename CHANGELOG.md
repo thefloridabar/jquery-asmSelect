@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.0.6] - 2022-07-26
+
+### Fixed
+- Pull request #1 by jtwb (Jason Benterou):
+  - This fixes a typo on line 231.
+  - Also allows widget to function if no default label is given.
+- Use CustomEvent for exposing changes to other scripts; original jQuery `trigger()` code didn't work (see function `triggerOriginalChange()`)
+
+### Changed
+- Cleaned up formatting, including variable declarations
+- Updated README with info from original Google Code Archive
+
+### Added
+- Added package.json
+- Moved changes from README to new CHANGELOG (this)
+
 ## [1.0.5 beta] - 2010-07-10
 ### Fixed
 - Fix to `selectChangeEvent`; thanks to petersumskas and eliel_goco@yahoo.com.

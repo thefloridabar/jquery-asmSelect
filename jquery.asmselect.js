@@ -1,5 +1,5 @@
 /*
- * Alternate Select Multiple (asmSelect) 1.0.5 beta - jQuery Plugin
+ * Alternate Select Multiple (asmSelect) 1.0.6 - jQuery Plugin
  * http://www.ryancramer.com/projects/asmselect/
  *
  * Copyright (c) 2009 by Ryan Cramer - http://www.ryancramer.com
