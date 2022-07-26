@@ -404,14 +404,17 @@
                 ignoreOriginalChangeEvent = true;
                 let $option = $("#" + optionId);
 
-				$original.trigger('change', [{
-					'option': $option,
-					'value': $option.val(),
-					'id': optionId,
-					'item': $ol.children("[rel=" + optionId + "]"),
-					'type': type
-				}]); 
-			}
+                const event = new CustomEvent('change', {
+                    detail: {
+                        'option': $option,
+                        'value': $option.val(),
+                        'id': optionId,
+                        'item': $ol.children("[rel=" + optionId + "]"),
+                        'type': type
+                    }
+                });
+                $original.get(0).dispatchEvent(event);
+            }
 
             init();
         });
